@@ -49,7 +49,7 @@ function gerarNumeroAleatorio() {
         return gerarNumeroAleatorio();
     } else {
         listaDeNumerosSorteados.push(numeroEscolhido);
-        console.log(listaDeNumerosSorteados);
+        // console.log(listaDeNumerosSorteados);
         return numeroEscolhido;
     }
 }
@@ -61,7 +61,7 @@ function limpar() {
 function reiniciarJogo() {
 
     numberSecret = gerarNumeroAleatorio(numberMax);
-    console.log(numberSecret);
+    // console.log(numberSecret);
     limpar();
     mensagemInicial();
     tentativa = 1;
