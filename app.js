@@ -2,7 +2,7 @@ let listaDeNumerosSorteados= [];
 const numberMax = 10;
 let tentativa = 1;
 let numberSecret = gerarNumeroAleatorio();
-console.log(numberSecret)
+// console.log(numberSecret)
 mensagemInicial();
 
 function mensagemInicial(){
